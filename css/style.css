@@ -1,0 +1,67 @@
+    .container  {
+    width: 100vw;
+    margin-left: -24px;
+    }
+
+  .header-parent{
+    background: white;
+    z-index: 1;
+    position: fixed;
+    background-size: cover;
+    width: 100vw;
+
+
+  }
+
+    .header {
+     font-size:15px;
+     font-weight: bold;
+     text-align: center;
+
+     }
+     .hr {
+       width: 100% ;
+     }
+
+   .parallax  {
+     /* The image used */
+    background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050");
+
+  /* Set a specific height */
+     height: 600px;
+
+  /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100vw;
+
+}
+
+   .intro-container   {
+     position:absolute;
+     left: 30%;
+     top: 50%;
+   }
+   .Website-intro    {
+      font-size: 50px;
+      text-align: center;
+      margin-top: -30px;
+
+      color: white;
+      font-family: sans-serif;
+
+   }
+   .break-line   {
+
+      border:2px solid white;
+    }
+    .row-description   {
+      color: white;
+      font-size: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
