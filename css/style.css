@@ -1,67 +1,56 @@
-    .container  {
-    width: 100vw;
-    margin-left: -24px;
-    }
+  /*main area*/
+	.work-space {
+		margin: 0px;
+	}
+	body{
+			overflow-x: hidden;
+		}
+	/*main area*/
+	/*background, navigation, header,creative tim*/
+	.background {
+		background: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050");
+		background-size: cover;
+		height: 100vh;
+		background-attachment: fixed;
+		top: 0px;
+	}
+	.navbar-collapse {
+		font-family:Quicksand;
+		font-color:#000;
+	}
+	.header a {
+		font-family: Quicksand;
+		font-size: 30px;
+	}
+	
+	.menu {
+		font-size: 16px;
+		margin-top: 25px;
+		background: #fff;
+	}
 
-  .header-parent{
-    background: white;
-    z-index: 1;
-    position: fixed;
-    background-size: cover;
-    width: 100vw;
+	.creative-tim {
+		text-align: center;
+		margin: 100px;
+		color: #424242;
+		position: absolute;
+	}
 
+	.creative-tim h1 {
+		font-size: 7em;
+		text-transform: uppercase;
+		margin-top: 2em;
+		position: relative;
+	}
 
-  }
+	.creative-tim hr {
+		border-top: 1px solid #424242;
+		margin-top: 11px;
+	}
 
-    .header {
-     font-size:15px;
-     font-weight: bold;
-     text-align: center;
+	.creative-tim p {
+		font-size: 20px;
+		margin-top: 10px;
+	}
 
-     }
-     .hr {
-       width: 100% ;
-     }
-
-   .parallax  {
-     /* The image used */
-    background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050");
-
-  /* Set a specific height */
-     height: 600px;
-
-  /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding-left: 0px;
-      padding-right: 0px;
-      width: 100vw;
-
-}
-
-   .intro-container   {
-     position:absolute;
-     left: 30%;
-     top: 50%;
-   }
-   .Website-intro    {
-      font-size: 50px;
-      text-align: center;
-      margin-top: -30px;
-
-      color: white;
-      font-family: sans-serif;
-
-   }
-   .break-line   {
-
-      border:2px solid white;
-    }
-    .row-description   {
-      color: white;
-      font-size: 20px;
-      margin-top: 40px;
-      text-align: center;
-    }
+	
